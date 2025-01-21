@@ -31,4 +31,5 @@ After setting the static IP, log into the client VM and ping the domain controll
 
 <img width="1280" alt="Screenshot 2025-01-19 at 3 53 17 PM" src="https://github.com/user-attachments/assets/7a3d221f-b3b1-4dae-8e18-162fd3a28384" />
 <img width="1280" alt="Screenshot 2025-01-21 at 2 37 52 AM" src="https://github.com/user-attachments/assets/2c9515ce-a7ab-41b6-a27d-9e9e936c7e57" />
-To install Active Directory, open Server Manager, click "Add Roles and Features," and confirm the domain controller's private IP. In the "Server Roles" tab, select "Active Directory Domain Services," click "Add Features," then "Next" and "Install." Once installed, click the warning flag in Server Manager and select "Promote this server to a domain controller." Choose "Add a new forest," specify the domain name (devinfrench.com), set the domain password, and complete the prompts to install.
+
+In Server Manager, click "Add Roles and Features," select "Active Directory Domain Services," and install. Afterward, click the warning flag, select "Promote this server to a domain controller," choose "Add a new forest," set the domain name (e.g., ernestotest.com) and password, then complete the installation.
